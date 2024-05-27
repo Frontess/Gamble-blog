@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <title>GAMBLE-BLOG</title>
+</head>
+
+<body>
+    <header class="header__big container">
+        <div class="navbar__container">
+        <nav class="navbar">
+            <a href="#">
+                <div class="navbar__info ">About us</div>
+            </a>
+            <a href="#">
+                <div class="navbar__info">Brands</div>
+            </a>
+            <a href="#">
+                <div class="navbar__info">Commissions</div>
+            </a>
+            <a href="#">
+                <div class="navbar__info">News</div>
+            </a>
+            <a href="#">
+                <div class="navbar__info">Contact us</div>
+            </a>
+            <a href="#">
+                <div class="navbar__info">Careers</div>
+            </a>
+        </nav>
+    </div>
+        <div class="header__buttons">
+            <button class="header__button btn-language header__button-elem button-elem" id="language">
+                <img class="icon-planet" src="img/icon-planet.svg" alt="icon-planet">EN
+            </button>
+            <button class="header__button btn-log-in header__button-elem">LOG IN</button>
+            <button class="header__button btn-sign-up header__button-elem">SIGN UP</button>
+        </div>
+    </header>
+
+    <header class="header__mobile">
+        <div class="header__buttons">
+            <button class="header__button btn-language">
+                <img class="icon-planet" src="img/icon-planet.svg" alt="planet">
+            </button>
+       
+            <img class="small_image small_image-open icon-planet" src="img/adaptive/menu.svg" alt="menu" onclick=Open()>
+            <img class="small_image small_image-close icon-planet" src="img/adaptive/Close.svg" alt="close" onclick=Close()>
+    
+        </div>
+    </header>
+    <nav class="modal">
+        <div class="modal__points">
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">About us</div>
+            </a>
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">Brands</div>
+            </a>
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">Commissions</div>
+            </a>
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">News</div>
+            </a>
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">Contact us</div>
+            </a>
+            <a href="#" class="modal__points-elem">
+                <div class="modal__info modal__info-text">Careers</div>
+            </a>
+        </div>
+
+        <div class="modal__buttons">
+            <button class="modal__button btn-log modal__button-elem">LOG IN</button>
+            <button class="modal__button btn-sign modal__button-elem">SIGN UP</button>
+        </div>
+
+    </nav>
+
+    <main class="main container">
+        <div class="main__info">
+            <div class="main__text">
+                <p class="main__title"><span>HOUSE OF </span> <span class="main__title_second">GAMBLING</span></p>
+                <p class="main__slogan">Raise your ROI with direct advertiser</p>
+            </div>
+            <button class="main__button main__button-elem">BECOME A PARTNER</button>
+        </div>
+
+        <div class="line_container">
+            <div class="container_item container-first">
+            </div>
+            <div class="container_item container-second">
+            </div>
+            <div class="container_item container-third">
+            </div>
+        </div>
+
+        <div class="main_blog">
+            <p class="blog_label">BLOG</p>
+            <div class="blog_container">
+                <div class="scroll_line"></div>
+                <div class="scroll_bar"></div>
+                <div class="blog_scroll" onscroll="Scroll()" id="test">
+
+                    <div class="scroll_item scroll_item-active">
+                        <p class="item_label">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p class="item_data">10.02.2023</p>
+                    </div>
+                    <div class="scroll_item">
+                        <p class="item_label">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p class="item_data">10.02.2023</p>
+                    </div>
+                    <div class="scroll_item">
+                        <p class="item_label">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p class="item_data">10.02.2023</p>
+                    </div>
+                    <div class="scroll_item">
+                        <p class="item_label">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p class="item_data">10.02.2023</p>
+                    </div>
+                    <div class="scroll_item">
+                        <p class="item_label">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p class="item_data">10.02.2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="rights" id="rights">
+            <a href="#">
+                <div class="rights__item active">Terms &amp; Conditions</div>
+            </a>
+            <a href="#">
+                <div class="rights__item none">Cookies</div>
+            </a>
+            <a href="#">
+                <div class="rights__item">Contacts</div>
+            </a>
+            <a href="#">
+                <div class="rights__item">Careers</div>
+            </a>
+            <a href="#">
+                <div class="rights__item">Brand Guide</div>
+            </a>
+        </div>
+        <div class="socials-area">
+            <div class="social-media">Our social media:</div>
+            <div class="buttons-socials">
+                <div class="twitter-wrapper icons"><img class="img" src="img/social/twitter.svg" alt="icons"></div>
+                <div class="facebook-wrapper icons"><img class="img" src="img/social/facebook.svg" alt="icons"></div>
+                <div class="instagram-wrapper icons"><img class="img" src="img/social/instagram.svg" alt="icons"></div>
+                <div class="linked-in-wrapper icons"><img class="img" src="img/social/linked-in.svg" alt="icons"></div>
+                <div class="you-tube-wrapper icons"><img class="img" src="img/social/you-tube.svg" alt="icons"></div>
+                <div class="tik-tok-wrapper icons"><img class="img" src="img/social/tik-tok.svg" alt="icons"></div>
+                <div class="telegram-wrapper icons"><img class="img" src="img/social/telegram.svg" alt="icons"></div>
+                <div class="VK-wrapper icons"><img class="img" src="img/social/VK.svg" alt="icons"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/app.js"></script>
+</body>
+
+</html>
